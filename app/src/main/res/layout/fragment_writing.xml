@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag_writing"
+    android:background="@color/bg_color"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:id="@+id/reading_basics_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:text="Writing Basics"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="start"/>
+
+        <Button
+            android:id="@+id/syllable_blocks"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_btn_standard_height"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center"
+            android:text="Syllable Blocks"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/syllableblock6"
+            app:iconGravity="textEnd"
+            app:iconSize="100dp"/>
+
+        <Button
+            android:id="@+id/the_letter_o"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_btn_standard_height"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center"
+            android:paddingStart="40dp"
+            android:text="The letter "
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/o"
+            app:iconGravity="textEnd"
+            app:iconPadding="-15dp"
+            app:iconSize="100dp"
+            app:iconTint="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:text="Vowels"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/vertical_vowels"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_btn_standard_height"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center"
+            android:text="Vertical Vowels"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/verticalvowels"
+            app:iconGravity="textEnd"
+            app:iconSize="100dp"
+            app:iconPadding="20dp"
+            app:iconTint="@null"/>
+
+        <Button
+            android:id="@+id/horizontal_vowels"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_btn_standard_height"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center"
+            android:text="Horizontal\nVowels"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/horizontalvowels"
+            app:iconGravity="textEnd"
+            app:iconPadding="20dp"
+            app:iconSize="100dp"
+            app:iconTint="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:text="Consonants"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/consonants"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_btn_standard_height"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center"
+            android:text="Consonants"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/consonants"
+            app:iconGravity="textEnd"
+            app:iconPadding="20dp"
+            app:iconSize="100dp"
+            app:iconTint="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:text="Final Test"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textSize="24sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0"
+            android:id="@+id/finalwritingtest"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/corner_background"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Have you finished all the topics?\nTry out a full test here!"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/start_writing_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Writing Test"
+                android:textColor="@color/black"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:backgroundTint="@color/ye_bgcolor"
+                app:cornerRadius="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_btn_standard_width">370dp</dimen>
+    <dimen name="menu_btn_standard_height">125dp</dimen>
+    <string name="menu_button_size">360dp</string>
+</resources>

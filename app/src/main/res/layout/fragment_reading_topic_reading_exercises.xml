@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reading_topic_reading_exercises"
+    android:background="@color/bg_color"
+    android:fillViewport="true"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_batchim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Reading Exercises"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reading_directions"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="한국"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Korean"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="안녕하세요"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="달콤해"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweet"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="맛있어"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's delicious"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="피곤해요"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm tired"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="좋은 오후예요"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good afternoon"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="신기하네요"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amazing"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="빨리"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hurry"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="좋은 아침이에요"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good morning"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/exercise_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:text="초콜릿"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chocolate"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

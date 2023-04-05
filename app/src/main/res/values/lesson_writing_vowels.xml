@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="lesson_general_vowels">To start off our vowel lessons, we need to understand the
+        general mechanics of vowels. First, we need to explain one of the most important rules of
+        vowels; <font color="#ffbc3a">Vowels cannot be a standalone letter in the Korean language</font>.
+
+        \n\n<font color="#ffbc3a">Vowels cannot be used as a starting letter for any syllable
+            block</font>. Hence, <font color="#ffbc3a">they need a starting consonant that occupies
+            the starting field of any syllable block that they will be used in</font>.
+
+        \n\nBut <font color="#ffbc3a">how are we going to use vowels without having their sound
+            modified by a consonant?</font> Well, as mentioned in the previous lessons,
+        <font color="#ffbc3a">the letter ㅇ</font> is a consonant that is
+        <font color="#ffbc3a">Silent</font> when used
+        <font color="#ffbc3a">as a starting consonant</font>. Hence, you can always
+        <font color="#ffbc3a">use it as a placeholder</font> so you can use a vowel as a standalone
+        sound.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_general_vowels_2">By writing vowels in this way, we can retain the vowel\'s
+        sound without being modified by the starting consonants sound!
+    </string>
+
+    <string name="lesson_vertical_vowels">Vertical vowels are pretty straight-forward;
+        <font color="#ffbc3a">they are vowels that stand vertically in a syllable block and every
+            rule that a vowel has is also applied to them</font>.
+        If you haven\'t checked the rules of a vowel, we recommend checking the prerequisite lesson
+        above!
+
+        \n\nNow that we got that out of the way, it\'s time to take a look at all the Korean vowels!
+    </string>
+
+    <string name="lesson_vertical_vowel_cheatsheet">Here we can see the vertical vowel cheatsheet.
+        In this figure, <font color="#ffbc3a">each Korean letter is accompanied by a Roman letter</font>.
+        In Romanized hangul, <font color="#ffbc3a">these letters are their Roman letter equivalent</font>.
+        However, while they are in <font color="#ffbc3a">similar sound, they are not entirely the same</font>.
+
+        \n\nOther than that, we could see some
+        <font color="#ffbc3a">letter combinations in the figure above</font>. For example, the
+        letter ㅑ is a a combination of the letter Y and the letter A which makes the
+        sound of \"Ya\". <font color="#ffbc3a">This is a common sight in the Korean language</font>
+        and despite containing the consonant letter Y in the Roman writing system, the vowel ㅑ is
+        considered as a whole vowel in the Korean writing system.
+
+        \n\nNow that we\'ve seen the Korean vertical vowels\' Romanized equivalents, let\'s take a look
+        at how they would look like in actual syllable blocks.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_vertical_vowel_cheatsheet_2">Here we can see different vertical vowels used
+        in a syllable block. As you can see, they always stand vertically at the right side of the
+        consonant as the name implies.
+
+        \n\nLet\'s break-down the syllable blocks. For example, we have <font color="#ffbc3a">안</font>.
+        As mentioned in the previous lessons, the letter ㅇ when placed as a beginning consonant is silent.
+        Therefore, <font color="#ffbc3a">the letter ㅇ should be read as a silent sound</font>.
+        Next, <font color="#ffbc3a">beside it is the ㅏ vertical vowel</font>. According to the
+        cheat sheet above, <font color="#ffbc3a">the ㅏ\'s sound is similar to the letter A</font>.
+        Which means that if we combine the letter ㅇ and ㅏ together, <font color="#ffbc3a">it should
+            result into 아, which is read as \"Ah\" or \"A\"</font>. Easy, right? Now we for the last
+        part, <font color="#ffbc3a">we have the consonant letter ㄴ on the bottom part of the
+            syllable block</font>. This is a consonant hence it is currently not part of the lesson.
+        However, in the Romanized version, the letter ㄴ\'s equivalent is the letter N. Hence, adding
+        it to the mix, the letter ㅇ and ㅏ combined into 아 should sound as \"Ah\" while adding the
+        letter ㄴ at the bottom of it to complete the syllable block 안 would create the sound
+        \"An\" or \"Ahn\"!
+
+        \n\nTo familiarize yourself with these vertical vowels, we recommend trying to write down
+        your own syllable blocks using the cumulative knowledge you\'ve gained from all of the
+        previous lessons. Try it out!
+    </string>
+
+    <string name="lesson_horizontal_vowels">Similar to Vertical Vowels, Horizontal vowels are as
+        the name implies:
+        <font color="#ffbc3a">they are vowels that are placed horizontally on a syllable block</font>.
+        <font color="#ffbc3a">Most of the time, horizontal vowels are always underneath the
+            starting consonant of a syllable block</font>. This means that they are often occupying
+        the 2nd field of the syllable block!
+
+        \n\nWith that said, that means horizontal vowels will also require a starting consonant as
+        mentioned in the pre-requisite lesson. If you haven\'t checked it yet, please read the lesson
+        before proceeding!
+
+        \n\nNow, let\'s take a look at the Korean horizontal vowels!
+    </string>
+
+    <string name="lesson_horizontal_vowel_cheatsheet">The figure above is the Horizontal Vowel cheatsheet.
+        As you can see, it is very much similar to the Vertical Vowels from the previous lesson. However,
+        this time, <font color="#ffbc3a">the vertical vowels are placed horizontally underneath
+        the starting consonant</font>.
+
+        \n\nSimilar to the previous lesson, the same thing goes to this horizontal vowel cheatsheet.
+        Each horizontal vowel is accompanied by a Roman letter that is similar in sound.
+        Use these as your guide for learning the sounds of the horizontal vowels.
+
+        \n\nNow that we\'ve seen the horizontal vowels, let\'s see how they would look in syllable blocks!
+    </string>
+
+    <string name="lesson_horizontal_vowel_cheatsheet_2">If we look at these examples, we could see that
+        <font color="#ffbc3a">the horizontal vowel is always underneath the ㅇ consonant or starting consonant</font>.
+
+        \n\nLet\'s break down a syllable block. For example, we have <font color="#ffbc3a">용</font>.
+        As mentioned in previous lessons, <font color="#ffbc3a">the consonant ㅇ when used as a
+            beginning consonant, it should be silent</font>. Next, <font color="#ffbc3a">we have the
+            ㅛ vowel underneath it</font>. According to the cheat sheet, <font color="#ffbc3a">the ㅛ\'s
+            sound should be similar to the Roman letters Y and O combined into \"Yo\"</font>.
+        Which means, <font color="#ffbc3a">요 together should be \"YO\"</font>.
+        However, <font color="#ffbc3a">there is still another ㅇ consonant at the ending consonant
+            position</font>. As mentioned in the previous lessons, when the letter ㅇ is used as an
+        ending consonant, <font color="#ffbc3a">it should be read as the \"NG\" sound</font>.
+        Therefore, the syllable block
+        <font color="#ffbc3a">용 altogether should be read as \"Yong\"</font>.
+
+        \n\nTry practicing by making your own syllable blocks from what you\'ve learned!
+    </string>
+
+</resources>

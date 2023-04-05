@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title -->
+    <string name="lesson_letter_o_title">Ieung (이응)</string>
+
+    <!-- Lesson -->
+    <string name="lesson_letter_o">To start off our Korean Jamo lessons, we need to introduce
+        one of Hangul\'s most important letters or \"Jamo\" in order to make things easier
+        to understand.
+
+        \n\nThe letter <font color="#ffbc3a">ㅇ </font>or <font color="#ffbc3a">Ieung (이응)</font>
+        is a consonant with a sound that is similar to the
+        <font color="#ffbc3a">\"NG\" sound in the Roman alphabet</font>. However, if it is
+        <font color="#ffbc3a">at the beginning of a syllable</font>, it is
+        <font color="#ffbc3a">silent</font> and is <font color="#ffbc3a">used as a placeholder</font>
+        for vowel letters.
+
+        \n\nOther than that, the letter ㅇ can only be used as either a
+        <font color="#ffbc3a">placeholder at the start</font> of a syllable block, and
+        <font color="#ffbc3a">a consonant at the end</font> of the syllable block. Meaning the
+        letter ㅇ <font color="#ffbc3a">cannot exist in any other position</font> other than the
+        <font color="#ffbc3a">start and the end of a syllable block</font>. Any other position is
+        invalid.
+    </string>
+
+    <!-- Placeholder Mechanics -->
+    <string name="lesson_letter_o_placeholder_mechanics">When used as a <font color="#ffbc3a">placeholder</font>,
+        the letter ㅇ\'s <font color="#ffbc3a">sound will become silent</font> and it will
+        <font color="#ffbc3a">always occupy the highest priority field of the syllable block</font>.
+        Marking it as a \"Starting Letter\" for every syllable block where it is used as a
+        placeholder.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_letter_o_placeholder_mechanics2">Aside from the letter ㅇ,
+        <font color="#ffbc3a">every letter after the letter ㅇ should be pronounced as is</font>.
+    </string>
+
+    <!-- Sound -->
+    <string name="lesson_letter_o_sound">When used as a <font color="#ffbc3a">consonant</font>,
+        the letter ㅇ\'s <font color="#ffbc3a">sound will become the \"NG\" sound</font> and it will
+        <font color="#ffbc3a">always occupy the lowest priority field of the syllable block</font>.
+        Marking it as a \"Ending Letter\" for every syllable block where it is used as a
+        consonant.
+
+        \n\nHere are some examples:
+    </string>
+
+    <!-- Double -->
+    <string name="lesson_letter_o_double">The rule of Placeholder Ieung and Consonant Ieung also
+        applies even when there are two letter ㅇ\'s inside of one syllable.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_letter_o_double_2">In cases like these, the letter ㅇ at the
+        <font color="#ffbc3a">top-most part or the beginning part of the
+            syllable is silent</font>. Meanwhile, the letter ㅇ at <font color="#ffbc3a">the bottom
+            or at the end of the syllable should be read with the \"NG\" sound</font>.
+    </string>
+
+</resources>

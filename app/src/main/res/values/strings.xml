@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Hanbaeuda</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="group_name">A <font color="#ffbc3a">CakeDev</font> application</string>
+
+    <string name="quiz_directions">Tap on the correct answer from the four choices on each question
+        and tap on submit to submit your answer.
+
+        \n\nTry to get as much correct answers as you can!
+    </string>
+
+    <string name="reading_directions">Here we have some reading exercises! Try to read each word
+        without guides and tap on the word to reveal its Romanized version. Goodluck!
+    </string>
+
+    <string name="credit_description">This application is made possible through the combined efforts
+        of four university students from <font color="#ffbc3a">Univesidad De Manila</font>.
+
+        \n\nDevelopment <font color="#ffbc3a">started on November 1, 2022</font>
+        and the first Beta version was <font color="#ffbc3a">released on
+        November 27, 2022</font>.
+
+        \n\nThe application was made under the guidance of
+        <font color="#ffbc3a">CET Faculty member Mr. Ronald Fernandez</font> and
+        <font color="#ffbc3a">Korean language expert Mr. John Park of South Korea</font>.
+    </string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/roh_navigation"
+    app:startDestination="@id/frag_roh">
+
+    <fragment
+        android:id="@+id/frag_roh"
+        android:name="com.cakedev.hanbaeuda.frag_roh"
+        android:label="fragment_frag_roh"
+        tools:layout="@layout/fragment_roh" >
+        <action
+            android:id="@+id/action_frag_roh_to_writing_topic_letter_o2"
+            app:destination="@id/writing_topic_letter_o2" />
+        <action
+            android:id="@+id/action_frag_roh_to_reading_topic_reading_order2"
+            app:destination="@id/reading_topic_reading_order2" />
+        <action
+            android:id="@+id/action_frag_roh_to_reading_topic_batchim2"
+            app:destination="@id/reading_topic_batchim2" />
+        <action
+            android:id="@+id/action_frag_roh_to_writing_topic_vowels_general2"
+            app:destination="@id/writing_topic_vowels_general2" />
+        <action
+            android:id="@+id/action_frag_roh_to_syllable_blocks_nested"
+            app:destination="@id/syllable_blocks_nested" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_letter_o2"
+        android:name="com.cakedev.hanbaeuda.writing_topic_letter_o"
+        android:label="fragment_writing_topic_letter_o"
+        tools:layout="@layout/fragment_writing_topic_letter_o" >
+        <action
+            android:id="@+id/action_writing_topic_letter_o2_to_frag_roh"
+            app:destination="@id/frag_roh"
+            app:popUpTo="@id/frag_roh"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reading_topic_batchim2"
+        android:name="com.cakedev.hanbaeuda.reading_topic_batchim"
+        android:label="fragment_reading_topic_batchim"
+        tools:layout="@layout/fragment_reading_topic_batchim" >
+        <action
+            android:id="@+id/action_reading_topic_batchim2_to_frag_roh"
+            app:destination="@id/frag_roh"
+            app:popUpTo="@id/frag_roh"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reading_topic_reading_order2"
+        android:name="com.cakedev.hanbaeuda.reading_topic_reading_order"
+        android:label="fragment_reading_topic_reading_order"
+        tools:layout="@layout/fragment_reading_topic_reading_order" >
+        <action
+            android:id="@+id/action_reading_topic_reading_order2_to_frag_roh"
+            app:destination="@id/frag_roh"
+            app:popUpTo="@id/frag_roh"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_vowels_general2"
+        android:name="com.cakedev.hanbaeuda.writing_topic_vowels_general"
+        android:label="fragment_writing_topic_vowels_general"
+        tools:layout="@layout/fragment_writing_topic_vowels_general" >
+        <action
+            android:id="@+id/action_writing_topic_vowels_general2_to_frag_roh"
+            app:destination="@id/frag_roh"
+            app:popUpTo="@id/frag_roh"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/syllable_blocks_nested" />
+</navigation>

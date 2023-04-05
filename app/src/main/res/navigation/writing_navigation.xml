@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/writing_navigation"
+    app:startDestination="@id/frag_writing">
+
+    <fragment
+        android:id="@+id/frag_writing"
+        android:name="com.cakedev.hanbaeuda.frag_writing"
+        android:label="fragment_frag_writing"
+        tools:layout="@layout/fragment_writing" >
+        <action
+            android:id="@+id/action_frag_writing_to_writing_topic_letter_o"
+            app:destination="@id/writing_topic_letter_o" />
+        <action
+            android:id="@+id/action_frag_writing_to_writing_topic_horizontal_vowels"
+            app:destination="@id/writing_topic_horizontal_vowels" />
+        <action
+            android:id="@+id/action_frag_writing_to_writing_topic_vertical_vowels"
+            app:destination="@id/writing_topic_vertical_vowels" />
+        <action
+            android:id="@+id/action_frag_writing_to_writing_topic_consonants"
+            app:destination="@id/writing_topic_consonants" />
+        <action
+            android:id="@+id/action_frag_writing_to_syllable_blocks_nested"
+            app:destination="@id/syllable_blocks_nested"/>
+        <action
+            android:id="@+id/action_frag_writing_to_register_name"
+            app:destination="@id/register_name" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_letter_o"
+        android:name="com.cakedev.hanbaeuda.writing_topic_letter_o"
+        android:label="fragment_writing_topic_letter_o"
+        tools:layout="@layout/fragment_writing_topic_letter_o" >
+        <action
+            android:id="@+id/action_writing_topic_letter_o_to_frag_writing"
+            app:destination="@id/frag_writing"
+            app:popUpTo="@id/frag_writing"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_horizontal_vowels"
+        android:name="com.cakedev.hanbaeuda.writing_topic_horizontal_vowels"
+        android:label="fragment_writing_topic_horizontal_vowels"
+        tools:layout="@layout/fragment_writing_topic_horizontal_vowels" >
+        <action
+            android:id="@+id/action_writing_topic_horizontal_vowels_to_frag_writing"
+            app:destination="@id/frag_writing" />
+        <action
+            android:id="@+id/action_writing_topic_horizontal_vowels_to_writing_topic_vowels_general"
+            app:destination="@id/writing_topic_vowels_general" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_vertical_vowels"
+        android:name="com.cakedev.hanbaeuda.writing_topic_vertical_vowels"
+        android:label="fragment_writing_topic_vertical_vowels"
+        tools:layout="@layout/fragment_writing_topic_vertical_vowels" >
+        <action
+            android:id="@+id/action_writing_topic_vertical_vowels_to_frag_writing"
+            app:destination="@id/frag_writing" />
+        <action
+            android:id="@+id/action_writing_topic_vertical_vowels_to_writing_topic_vowels_general"
+            app:destination="@id/writing_topic_vowels_general" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_vowels_general"
+        android:name="com.cakedev.hanbaeuda.writing_topic_vowels_general"
+        android:label="fragment_writing_topic_vowels_general"
+        tools:layout="@layout/fragment_writing_topic_vowels_general" >
+        <action
+            android:id="@+id/action_writing_topic_vowels_general_to_writing_topic_vertical_vowels"
+            app:destination="@id/writing_topic_vertical_vowels"
+            app:popUpTo="@id/writing_topic_vertical_vowels"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_writing_topic_vowels_general_to_writing_topic_horizontal_vowels"
+            app:destination="@id/writing_topic_horizontal_vowels"
+            app:popUpTo="@id/writing_topic_horizontal_vowels"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_consonants"
+        android:name="com.cakedev.hanbaeuda.writing_topic_consonants"
+        android:label="fragment_writing_topic_consonants"
+        tools:layout="@layout/fragment_writing_topic_consonants" >
+        <action
+            android:id="@+id/action_writing_topic_consonants_to_frag_writing"
+            app:destination="@id/frag_writing"
+            app:popUpTo="@id/frag_writing"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/syllable_blocks_nested" />
+    <fragment
+        android:id="@+id/register_name"
+        android:name="com.cakedev.hanbaeuda.writing_register_name"
+        android:label="fragment_register_name"
+        tools:layout="@layout/fragment_writing_register_name" />
+</navigation>

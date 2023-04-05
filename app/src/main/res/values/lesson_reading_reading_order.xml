@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lesson_reading_order"><font color="#ffbc3a">The Korean reading order is very similar
+        to the syllable block Stroke Order</font>.
+
+        \n\nLet\'s refresh our memory. What is the Stroke Order? Each syllable block has specific
+        fields and numbers that indicate the arrangement of how you will write the syllable block.
+        The lower the number, often times found at the top-left of the syllable block, the first comes
+        in terms of reading and writing it. The higher the number, often found at the bottom-right of
+        the syllable block, the later they are added or read in the syllable block.
+
+        \n\nThese syllable block rules also applies to the Korean Reading Order in the same manner
+        and order.
+
+        \n\nNow that we remember the previous lessons, let\'s try out what we know!
+    </string>
+
+    <string name="lesson_reading_order_2">In the first syllable block we have
+        <font color="#ffbc3a">한</font>, a 3-letter syllable block with <font color="#ffbc3a">ㅎ as
+            the starting consonant</font>. According to the reading order, we should
+        <font color="#ffbc3a">start from ㅎ then ㅏ and the last should be ㄴ</font>. If we refer to
+        the previous lessons from the writing topic, we should already know what these letters
+        sound like. So ㅎ should be H, ㅏ should be A, and ㄴ should be N. Therefore, the 1st
+        syllable block is read as <font color="#ffbc3a">\"Han\"</font>.
+
+        \n\nUp next, we have <font color="#ffbc3a">글</font>, another 3-letter syllable block with
+        <font color="#ffbc3a">ㄱ as the starting consonant, ㅡ as its horizontal vowel, and ㄹ as
+            its ending consonant</font>. Based off the reading order, we should be starting from the
+        <font color="#ffbc3a">top-left to the bottom-right</font>. Therefore, ㄱ should be G, ㅡ should
+        be \"eu\" and ㄹ should be L. <font color="#ffbc3a">글 should be read as \"Geul\"</font>.
+        However, the <font color="#ffbc3a">Batchim rule</font> applies to this syllable block.
+        Which means the ㄹ should be R instead of L. So <font color="#ffbc3a">when the Batchim rule
+            is followed, this syllable block should be \"Geur\"</font>. For now, we\'ll go with the
+        Batchim rule to make sure the words are read correctly and explain it afterwards.
+
+        \n\nFor the third syllable block, we have 을. Again, top-left to the bottom-right. We should
+        start from ㅇ which is the starting consonant, ㅡ as the horizontal vowel, and ㄹ as the ending
+        consonant. <font color="#ffbc3a">The procedure is the same</font>; ㅇ is the starting consonant
+        which is silent, ㅡ as \"eu\" and ㄹ is equivalent to L. Which means
+        <font color="#ffbc3a">을 is read as \"Eul\"</font>.
+
+        \n\nNow, with all the syllable blocks combined, the first set of words should be read as
+        <font color="#ffbc3a">\"Han-geur-eul\"</font>.
+
+        \n\nFor the second set of words, let\'s try breaking it down all together. Our first syllable
+        is <font color="#ffbc3a">즐</font>. Following the same process, we should end up with
+        <font color="#ffbc3a">\"Jeul\"</font>. Next, we have <font color="#ffbc3a">겨</font>, a
+        horizontal 2-letter syllable block and <font color="#ffbc3a">요</font>, a vertical 2-letter
+        syllable block. With the two read as <font color="#ffbc3a">겨 = \"Gyeo\"</font> and
+        <font color="#ffbc3a">요 = \"Yo\"</font> respectively. When combined, these syllable blocks
+        should be <font color="#ffbc3a">\"Jeul-Gyeo-Yo\"</font>.
+
+        \n\nWhen both sets of words are combined,
+        <font color="#ffbc3a">Han-geur-eul Jeul-Gyeo-Yo (한글을 즐겨요)</font> means
+        <font color="#ffbc3a">\"I enjoy Hangul\"</font> or <font color="#ffbc3a">\"I enjoy Korean\"</font>.
+    </string>
+
+</resources>

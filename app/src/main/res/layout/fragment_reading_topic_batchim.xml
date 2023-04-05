@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".reading_topic_batchim"
+    android:background="@color/bg_color"
+    android:fillViewport="true"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/title_batchim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Batchim"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/banner_batchim"
+            android:text="받침"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bm_yeonsung"
+            android:textSize="100sp"
+            android:background="@drawable/corner_background"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_batchim"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/panel_1"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/banner_batchim"
+            app:layout_constraintStart_toStartOf="@+id/banner_batchim"
+            app:layout_constraintTop_toBottomOf="@+id/banner_batchim"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/corner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_background"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:text="@string/lesson_batchim"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/batchim"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_background"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:text="@string/lesson_batchim_2"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Batchim Application"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@id/panel_2"
+            app:layout_constraintStart_toStartOf="@id/panel_2"
+            app:layout_constraintEnd_toEndOf="@id/panel_2"
+            app:layout_constraintHorizontal_bias="0"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/panel_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/panel_1"
+            app:layout_constraintStart_toStartOf="@+id/panel_1"
+            app:layout_constraintTop_toBottomOf="@+id/panel_1"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/corner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="받침"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_background"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:text="@string/lesson_batchim_3"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Batchim Exceptions"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@id/panel_3"
+            app:layout_constraintStart_toStartOf="@id/panel_3"
+            app:layout_constraintEnd_toEndOf="@id/panel_3"
+            app:layout_constraintHorizontal_bias="0"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/panel_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/panel_2"
+            app:layout_constraintStart_toStartOf="@+id/panel_2"
+            app:layout_constraintTop_toBottomOf="@+id/panel_2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/corner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_background"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:text="@string/lesson_batchim_4"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="먹이"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_background"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:text="@string/lesson_batchim_5"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

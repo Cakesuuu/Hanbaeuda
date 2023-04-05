@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".writing_topic_syllable_blocks_3"
+    android:background="@color/bg_color"
+    android:fillViewport="true"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="3-Fields Syllable Blocks"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/syllablock2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/syllableblock_cornerbg"
+                android:src="@drawable/syllableblock3" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/syllableblock_cornerbg"
+                android:src="@drawable/syllableblock4" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/syllableblock_cornerbg"
+                android:src="@drawable/syllableblock5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lesson3main"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/syllablock2"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner_background"
+            app:layout_constraintStart_toStartOf="@+id/syllablock2"
+            app:layout_constraintTop_toBottomOf="@+id/syllablock2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/lesson_syllableblocks3"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="2 Consonants (Figure 1)"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:layout_marginBottom="-15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="앙  영  엉  양  앵"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="2 Vowels (Figure 2)"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:layout_marginBottom="-15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="와  워  왜  위  의"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="2 Consonants with 1 Horizontal Vowel (Figure 3)"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:layout_marginBottom="-15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="웅  옹  응  융  용"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/lesson_syllableblocks3_2"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintVertical_bias="0"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/lesson3main"
+            app:layout_constraintStart_toStartOf="@+id/lesson3main"
+            app:layout_constraintTop_toBottomOf="@id/lesson3main">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/syllable_blocks_p3prevlesson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/ye_bgcolor"
+                    android:color="@color/ye_bgcolor"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:text="Prev Lesson"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/prev"
+                    app:iconGravity="textStart"
+                    app:iconSize="10dp"
+                    app:iconTint="@color/black" />
+
+                <Button
+                    android:id="@+id/syllable_blocks_p3nextlesson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/ye_bgcolor"
+                    android:color="@color/ye_bgcolor"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:text="Next Lesson"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:cornerRadius="5dp"
+                    app:icon="@drawable/next"
+                    app:iconGravity="textEnd"
+                    app:iconSize="10dp"
+                    app:iconTint="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/syllable_blocks_p3back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/ye_bgcolor"
+                    android:color="@color/ye_bgcolor"
+                    android:fontFamily="@font/ibm_plex_sans_sb"
+                    android:gravity="center"
+                    android:text="Back to Start"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:cornerRadius="5dp"
+                    app:popUpTo="@layout/fragment_writing"
+                    app:popUpToInclusive="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

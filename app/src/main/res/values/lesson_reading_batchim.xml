@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lesson_batchim">Batchim is one of the most complicated parts of the Korean reading
+        and writing system. However, we can still discuss the most basic parts of Batchim to kickstart
+        your Korean learning journey!
+
+        \n\nBatchim is <font color="#ffbc3a">commonly found at the bottom or final consonant of a
+        syllable block</font>. When it comes to Batchim, there are some <font color="#ffbc3a">Korean
+        letters that may change their sound</font> depending if Bathchim applies to them or not.
+
+        \n\nTo make things easier to understand here\'s an example situation:
+        \n\nLet\'s use the word <font color="#ffbc3a">Batchim (받침)</font> for example. If
+        <font color="#ffbc3a">Batchim is not applied</font>, the word
+        <font color="#ffbc3a">\"받침\"</font> itself should be read as
+        <font color="#ffbc3a">\"Bad-Chim\"</font>. However,
+        <font color="#ffbc3a">when rules of Batchim is applied</font>, it
+        should be <font color="#ffbc3a">\"Batchim\"</font> wherein the
+        <font color="#ffbc3a">letter ㄷ\'s sound</font> in the syllable 받 is
+        <font color="#ffbc3a">replaced with T
+            instead of the usual D sound</font>.
+
+        \n\nHowever, this does not only apply to the letter ㄷ. There are more Korean letters sounds
+        that can change when Batchim is applied.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_batchim_2">If you look at the figure above, we can see the
+        <font color="#ffbc3a">Korean letters on the left side</font> and their
+        <font color="#ffbc3a">Latin or Roman letter counterpart on the right side</font> when
+        <font color="#ffbc3a">Batchim
+            is applied</font>.
+
+        \n\nOne example is the letter <font color="#ffbc3a">ㅅ</font>.
+        Normally, the Korean <font color="#ffbc3a">letter ㅅ\'s sound should be similar
+            to the letter S</font>. However in Batchim, its sound
+        <font color="#ffbc3a">completely changes and turns into the T sound</font>.
+
+        \n\nNow, you might be wondering: When do you apply batchim? Well, in the next lesson, we\'re
+        going to discuss when are you supposed to apply Batchim when reading and writing Korean words.
+    </string>
+
+    <string name="lesson_batchim_3">When a syllable block
+        <font color="#ffbc3a">ends with a consonant</font>, for example
+        <font color="#ffbc3a">\"받\"</font>
+        and the
+        <font color="#ffbc3a">next syllable block has a starting consonant</font>, for example
+        <font color="#ffbc3a">\"받침\"</font> the <font color="#ffbc3a">1st syllable
+            block\'s ending consonant</font> needs to
+        <font color="#ffbc3a">apply the Batchim rule</font>. Therefore,
+        <font color="#ffbc3a">the last consonant on
+            the 1st syllable block</font> (Letter ㄷ) should
+        <font color="#ffbc3a">sound similar to the letter T instead of the usual
+            D sound</font>.
+
+    </string>
+
+    <string name="lesson_batchim_4">
+        However, <font color="#ffbc3a">this does not apply</font> if the
+        <font color="#ffbc3a">next syllable block\'s starting consonant is the letter
+            ㅇ or the letter ㅎ</font>. In that case,
+        <font color="#ffbc3a">the final consonant on the 1st syllable block should retain
+            its original sound</font>.
+
+        \n\nHere is an example:
+    </string>
+
+    <string name="lesson_batchim_5">In cases like these,
+        <font color="#ffbc3a">Batchim should not be applied</font> therefore the letter
+        <font color="#ffbc3a">ㄱ</font> in syllable block
+        <font color="#ffbc3a">먹 retains its original G sound</font> instead of being modified
+        <font color="#ffbc3a">into the K sound
+            through Batchim</font>.
+
+        \n\nNow that we\'ve finished the basics of reading, let\'s apply your new skills in reading
+        exercises!
+    </string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lesson_consonants">Consonants in the Korean writing system are pretty easy to understand.
+        One of its main rules is that <font color="#ffbc3a">it cannot be placed in between vowels</font>
+        and the only positions it <font color="#ffbc3a">can only be placed in is the starting field</font>
+        in a syllable block which is the top-left most part,
+        <font color="#ffbc3a">and ending field</font> which is the bottom-right part or simply the bottom.
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_consonants_2">As we can see above, all the consonants are either placed in the
+        top-left of the syllable block or the bottom-right or simply bottom of the syllable block regardless
+        of the letters that is accompanying it.
+
+        \n\n<font color="#ffbc3a">Consonants that are placed in the top-left are considered as \"Starting Consonants\"</font>
+        and the consonants that are written last in the
+        <font color="#ffbc3a">bottom-right of a syllable block are the \"Ending Consonants\"</font>.
+
+        \n\nNow that we\'ve familiarized ourselves with the positions of consonants, let\'s move on towards
+        the consonant letters!
+    </string>
+
+    <string name="lesson_consonant_letters">As we can see above, these Korean consonants are accompanied
+        by Roman letters. These letters are in a similar sound with the Korean letters but not
+        entirely the same.
+
+        \n\nCompared to vowels, there are a lot more consonants in the
+        Korean writing system. <font color="#ffbc3a">Some of these seems like duplicated letters but
+            they are considered as one consonant therefore any rules that applies to any
+            normal consonant also applies to them</font>.
+
+        \n\nIn order to familiarize ourselves with these Korean letters, let\'s try doing an exercise!
+    </string>
+
+    <string name="lesson_consonant_letters_2">Let\'s take a look at the syllable blocks above. As we can see,
+        the first syllable is <font color="#ffbc3a">나</font>, which <font color="#ffbc3a">consists
+            of the consonant ㄴ and the vowel ㅏ</font>. It is <font color="#ffbc3a">a 2-letter syllable block</font>.
+        If we refer to the cheat sheet above, we can see that <font color="#ffbc3a">the letter ㄴ\'s
+            sound is similar to the letter N</font>.
+        And on the previous lesson, we found out that <font color="#ffbc3a">the letter ㅏ\'s sound is
+            similar to the letter A</font>. Therefore, <font color="#ffbc3a">the syllable block 나
+            should be read as \"Na\"</font>. It\'s that easy!
+
+        \n\nNow, let\'s continue to the second syllable. Here we have <font color="#ffbc3a">는</font>,
+        <font color="#ffbc3a">a 3-letter syllable block</font>. Which consists of <font color="#ffbc3a">the letter ㄴ as
+            the starting consonant</font>, with <font color="#ffbc3a">ㅡ as the horizontal vowel</font>,
+        and <font color="#ffbc3a">another ㄴ as the ending consonant</font>. If we refer to the cheat sheet above,
+        <font color="#ffbc3a">the letter ㄴ is similar to the letter N\'s sound</font>.
+        And <font color="#ffbc3a">if we refer to the previous lesson for vowels, we
+            found out that the letter ㅡ\'s sound is similar to \"EU\"</font>. And
+        <font color="#ffbc3a">for the last, it\'s another ㄴ which is still the N sound</font>.
+        If we combine these together into a syllable block, <font color="#ffbc3a">the
+            syllable 는 should be read as \"Neun\"</font>.
+
+        \n\nFor the third syllable, we have <font color="#ffbc3a">놀</font>. This is a bit trickier
+        to explain due to batchim, but for now, we\'ll skip that topic. As we can see,
+        <font color="#ffbc3a">the 놀 syllable has 3 letters, it is a 3-letter syllable block</font>
+        that consists of <font color="#ffbc3a">the letter ㄴ that is similar to the sound of N</font>,
+        and <font color="#ffbc3a">the ㅗ if we refer to the previous lesson, it says that it sounds
+            similar to the letter O</font>, and <font color="#ffbc3a">ㄹ which sounds similar to the
+            letter R if we refer to the cheat sheet above</font>. If combined, <font color="#ffbc3a">it should be read as
+            \"Nor\"</font>. But <font color="#ffbc3a">due to batchim, it is correctly
+            read as \"Nol\"</font>.
+
+        \n\nFor the 4th syllable, we have <font color="#ffbc3a">랍</font>, a
+        <font color="#ffbc3a">3-letter syllable block</font>. It consists of <font color="#ffbc3a">the letter ㄹ,
+            which has a similar sound to the letter R</font>, and <font color="#ffbc3a">the vowel ㅏ,
+            which has a similar sound to the letter A</font>, and <font color="#ffbc3a">the last
+            letter, the letter ㅂ, which has a sound of the letter B</font>. If we combine
+        these together, <font color="#ffbc3a">it should be read as \"Rab\"</font>. But
+        <font color="#ffbc3a">due to batchim, it is correctly read as \"Rap\"</font>.
+
+        \n\nFor the 5th and last syllable, we have <font color="#ffbc3a">다</font>, which should be
+        simple. If we refer to the cheat sheet above, <font color="#ffbc3a">the letter ㄷ sounds
+            similar to the letter D</font>. And if we refer to the previous lessons
+        about vowels, <font color="#ffbc3a">the letter ㅏ should sound similar to the letter A</font>.
+        <font color="#ffbc3a">Therefore, the syllable 다 should be read as \"Da\"</font>.
+
+        \n\n<font color="#ffbc3a">When all of these syllables are combined</font>, it brings out
+        the phrase <font color="#ffbc3a">\"나는 놀랍다\"</font> or
+        <font color="#ffbc3a">\"Naneun Norrabda\"</font>. However, <font color="#ffbc3a">when batchim
+            is applied, it is \"Naneun Nolrapda\"</font> which means <font color="#ffbc3a">\"I am amazing\"</font>.
+
+        \n\n<font color="#ffbc3a">Congratulations! You just made your first phrase! Keep practicing and you\'ll be
+            making your own phrases in no time!</font>
+    </string>
+
+</resources>

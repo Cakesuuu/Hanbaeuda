@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".writing_topic_letter_o"
+    android:background="@color/bg_color"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/corner_background"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/o" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:gravity="center|start"
+            android:paddingLeft="10dp"
+            android:text="@string/lesson_letter_o_title"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/corner_background"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:justificationMode="inter_word"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:text="@string/lesson_letter_o"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Placeholder Rule"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/placeholderlayout"
+            app:layout_constraintEnd_toEndOf="@+id/placeholderlayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/placeholderlayout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:id="@+id/placeholderlayout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/lesson_letter_o_placeholder_mechanics"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="30sp"
+                android:text="아   에   이   오   우"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="30sp"
+                android:text="워   와   웨   의   위"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/lesson_letter_o_placeholder_mechanics2"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Consonant Rule"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/sound"
+            app:layout_constraintEnd_toEndOf="@+id/sound"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/sound" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/placeholderlayout"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/placeholderlayout"
+            app:layout_constraintTop_toBottomOf="@+id/placeholderlayout"
+            android:id="@+id/sound"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/lesson_letter_o_sound"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="30sp"
+                android:text="쌍  밍  동  강  방"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="30sp"
+                android:text="꽝 뙁  황  령  긍"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_sb"
+            android:text="Double Ieungs"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/lessondouble"
+            app:layout_constraintEnd_toEndOf="@+id/lessondouble"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/lessondouble"/>
+
+        <LinearLayout
+            android:id="@+id/lessondouble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/corner_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/sound"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/sound"
+            app:layout_constraintTop_toBottomOf="@+id/sound">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/lesson_letter_o_double"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="앙  엥  잉  옹  웅"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ibm_plex_sans_sb"
+                android:justificationMode="inter_word"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/lesson_letter_o_double_2"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

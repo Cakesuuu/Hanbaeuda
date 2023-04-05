@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/syllable_blocks_nested"
+    app:startDestination="@id/writing_topic_syllable_blocks">
+    <fragment
+        android:id="@+id/writing_topic_syllable_blocks"
+        android:name="com.cakedev.hanbaeuda.writing_topic_syllable_blocks"
+        android:label="fragment_writing_topic_syllable_blocks"
+        tools:layout="@layout/fragment_writing_topic_syllable_blocks" >
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_to_writing_topic_syllable_blocks_2"
+            app:destination="@id/writing_topic_syllable_blocks_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_syllable_blocks_2"
+        android:name="com.cakedev.hanbaeuda.writing_topic_syllable_blocks_2"
+        android:label="fragment_writing_topic_syllable_blocks_2"
+        tools:layout="@layout/fragment_writing_topic_syllable_blocks_2" >
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_2_to_writing_topic_syllable_blocks"
+            app:destination="@id/writing_topic_syllable_blocks"
+            app:popUpTo="@id/writing_topic_syllable_blocks"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_2_to_writing_topic_syllable_blocks_3"
+            app:destination="@id/writing_topic_syllable_blocks_3" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_2_to_writing_topic_syllable_blocks2"
+            app:destination="@id/writing_topic_syllable_blocks" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_2_to_writing_topic_syllable_blocks3"
+            app:destination="@id/writing_topic_syllable_blocks"
+            app:popUpTo="@id/syllable_blocks_nested"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_syllable_blocks_3"
+        android:name="com.cakedev.hanbaeuda.writing_topic_syllable_blocks_3"
+        android:label="fragment_writing_topic_syllable_blocks_3"
+        tools:layout="@layout/fragment_writing_topic_syllable_blocks_3" >
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_3_to_writing_topic_syllable_blocks_2"
+            app:destination="@id/writing_topic_syllable_blocks_2"
+            app:popUpTo="@id/writing_topic_syllable_blocks_2"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_3_to_writing_topic_syllable_blocks_4"
+            app:destination="@id/writing_topic_syllable_blocks_4" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_3_to_writing_topic_syllable_blocks"
+            app:destination="@id/writing_topic_syllable_blocks"
+            app:popUpTo="@id/syllable_blocks_nested"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writing_topic_syllable_blocks_4"
+        android:name="com.cakedev.hanbaeuda.writing_topic_syllable_blocks_4"
+        android:label="fragment_writing_topic_syllable_blocks_4"
+        tools:layout="@layout/fragment_writing_topic_syllable_blocks_4" >
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_4_to_writing_topic_syllable_blocks_3"
+            app:destination="@id/writing_topic_syllable_blocks_3"
+            app:popUpTo="@id/writing_topic_syllable_blocks_3" />
+        <action
+            android:id="@+id/action_writing_topic_syllable_blocks_4_to_writing_topic_syllable_blocks"
+            app:destination="@id/writing_topic_syllable_blocks"
+            app:popUpTo="@id/syllable_blocks_nested"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

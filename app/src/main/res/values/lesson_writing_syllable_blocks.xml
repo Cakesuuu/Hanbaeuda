@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Syllable Block Summary -->
+    <string name="lesson_syllableblocks">One of the first rules in Korean writing is
+        <font color="#ffbc3a">Syllable Blocks</font>. These \"Blocks\" are used
+        <font color="#ffbc3a">to create syllables</font> and that is then
+        <font color="#ffbc3a">combined to form a word</font>.
+
+        \n\nHowever, there are several rules that needs to be considered when constructing a
+        syllable block. For example, adding letters into a syllable block
+        <font color="#ffbc3a">requires a certain arrangement</font> in order
+        <font color="#ffbc3a">to be readable</font>. This rule is also known as
+        <font color="#ffbc3a">\"Stroke Order\"</font>
+
+        \n\nIn the next few lessons, we will be discussing what are the various arrangements and
+        styles of a syllable block and how to construct them using the Stroke Order!
+    </string>
+
+    <!-- Field Priority -->
+    <string name="lesson_syllableblock_priority">To start off, each syllable block has a
+        <font color="#ffbc3a">minimum of 2 fields</font> and a
+        <font color="#ffbc3a">maximum of 4 fields</font>.
+
+        \n\nEach field <font color="#ffbc3a">requires at least 1 letter to be
+            added into it before being able to move on to the next field</font>. And sometimes, you
+        can even put 2 letters in the same field! However, those rules are applied in a different
+        topic such as Batchim and double consonants. For now, let\'s learn about Stroke Order first!
+
+        \n\nFor the next few paragraphs, please refer to the figures below:
+    </string>
+
+    <string name="lesson_syllableblock_priority2">In these figures, we could see that there are
+        <font color="#ffbc3a">numbers that corresponds to how their arrangement is supposed to be</font>.
+        For example, we have <font color="#ffbc3a">the number 1 on the top-left of these syllable
+        blocks. This is the 1st field that needs to be filled before
+            the rest of the syllable block</font>. Beside it is field number 2, which corresponds to the
+        second field that also needs to be filled with a letter. <font color="#ffbc3a">This continues
+            on all the way to field 4 which is the last field that needs to be filled and is
+            commonly found at the bottom-right of the syllable block</font>. Easy, right?
+
+        \n\nTo make it easier to understand, each number on each field represents the order of how the
+        syllable block is supposed to be written. Other than that, <font color="#ffbc3a">usually the 1st field you have to
+            fill with a letter is on the top-left of the syllable block</font>.
+        This progressively moves towards <font color="#ffbc3a">the bottom-right where you\'ll find
+            the later numbers and the last field that needs to be filled</font>!
+
+        \n\nJust remember:
+        \n<font color="#ffbc3a">Top-to-Bottom and Left-to-Right</font>!
+        \n<font color="#ffbc3a">Top-Left to Bottom-Right</font>!
+
+        \n\nThat\'s about it for the Stroke Order. Make sure to remember this lesson as it also applies
+        when reading a Korean word or syllable!
+    </string>
+
+    <!-- 2 Fields Syllable Blocks -->
+    <string name="lesson_syllableblocks2">2-Field syllable block is one of the simplest types of
+        syllable block. It only has two types which is the
+        <font color="#ffbc3a">Vertical Type on the first figure</font>
+        and the <font color="#ffbc3a">Horizontal Type on the second figure</font>. These syllable
+        blocks are named this way because they contain vertical and horizontal vowels respectively!
+
+        \n\nThe 2-Field syllable block\'s requirements are pretty simple. They only need 2 requirements
+        and after fulfilling those, you\'re pretty much good to go!
+
+        \n\nHere are the 2-Field syllable block requirements:
+        \n<font color="#00FFFFFF">___</font>- 1 Starting Consonant (Placed on Field 1)
+        \n<font color="#00FFFFFF">___</font>- 1 Ending Vowel (Placed on Field 2)
+
+        \n\nHowever, keep in mind that <font color="#ffbc3a">you cannot place more than 1 consonant
+            and vowel</font> in a 2-Field syllable block. You can only place 1 of each!
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_syllableblocks2_2">As you can see above,
+        <font color="#ffbc3a">the letter ㅇ placed in the Field 1 or \"Starting Field\" of the
+            syllable block as it is a consonant</font> that fulfills the 1st requirement.
+        On the other hand, <font color="#ffbc3a">the following vowel after it is placed on
+            the Field 2 of the syllable block as the \"Ending Vowel\"</font>. This fulfills the 2nd
+        requirement. If we refer to the previous lesson, writing a syllable block starts from the
+        top to bottom and left to right of the syllable block which is exactly what was applied here!
+
+        \n\nLet\'s break it down:
+        \nIn our case, <font color="#ffbc3a">the starting consonant is the letter ㅇ which is placed
+            in field 1 as the \'Starting Consonant\'</font>. This is
+        <font color="#ffbc3a">often found at the top-left most part of the syllable block</font>
+        which follows the Stroke Order. Meanwhile, <font color="#ffbc3a">the 2nd field is the vowel that follows. Which
+            is written as the last in this syllable block. Meaning it is the \'Ending Vowel\'</font>.
+    </string>
+
+    <!-- 3-Fields Syllable Block -->
+    <string name="lesson_syllableblocks3">Similar to the previous lesson, the 3-fields syllable block
+        also applies the same rules in terms of stroke order. However, the requirements are a bit
+        different this time. <font color="#ffbc3a">Instead of requiring only 1 consonant and
+            1 vowel, the 3-field syllable block can contain up to 3 letters</font> of varying
+        combinations!
+
+        \n\nThe 3-fields syllable block\'s requirements are:
+        \n<font color="#00FFFFFF">___</font>- 1 Starting Consonant (Field 1)
+        \n<font color="#00FFFFFF">___</font>- 1 Middle Consonant or Vowel (Field 2)
+        \n<font color="#00FFFFFF">___</font>- 1 Ending Consonant or Vowel (Field 3)
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_syllableblocks3_2">Once again, we used the letter ㅇ which is a consonant to
+        indicate the consonants in the examples above. <font color="#ffbc3a">Every other letter you
+            see that isn\'t the letter ㅇ in these examples is a vowel</font>!
+
+        \n\nAs we can see above, the 1st figure is a<font color="#ffbc3a"> syllable block
+            with 2 consonants</font> wherein the consonants would <font color="#ffbc3a">occupy both
+            the starting field and the ending field of the syllable block</font>.
+
+        \n\nOn the other hand, the 2nd figure is a <font color="#ffbc3a">syllable block
+            with 2 vowels</font> wherein the vowels occupies the middle field and the ending field
+        of the syllable block.
+
+        \n\nAnd for the last figure, the <font color="#ffbc3a">syllable block that is
+            similar to the 1st figure\'s rules but is only used for horizontal vowels</font> which
+        are the ㅜ, ㅗ, ㅛ, ㅠ, etc.
+    </string>
+
+    <!-- 4-Fields Syllable Block -->
+    <string name="lesson_syllableblocks4">4-Field Syllable Block is the last type of syllable block.
+        <font color="#ffbc3a">It can usually contain up to 4 letters. However, on rare occasions,
+            it can contain up to 5 letters with the 5th letter commonly found on the ending field</font>.
+
+        \n\nA 4-Field Syllable Block has different variations. One of which is a 4-field syllable block
+        with 2 consonants and 2 vowels like on the 1st image above, and another
+        variation with 3 consonants and 1 vowel as per the 2nd image above.
+
+        \n\n4-Field Syllable Block’s requirements are:
+        \n<font color="#ffbc3a">1st Variation</font>:
+        \n<font color="#00FFFFFF">___</font>- 2 Consonants
+	    \n<font color="#00FFFFFF">___</font>- 2 Vowels (1 Horizontal and 1 Vertical Vowel)
+        \n<font color="#ffbc3a">2nd Variation</font>:
+	    \n<font color="#00FFFFFF">___</font>- 3 Consonants
+	    \n<font color="#00FFFFFF">___</font>- 1 Vowel (Vertical Vowel)
+
+        \n\nHere are some examples:
+    </string>
+
+    <string name="lesson_syllableblocks4_2">As you can see in the figure above, the 4-Field Syllable
+        block contains <font color="#ffbc3a">a consonant on Field 1</font> that is the
+        <font color="#ffbc3a">\“Starting Consonant\”. A syllable block cannot start without a
+        starting consonant as vowels cannot be used as a starting letter</font>.
+
+        \n\n<font color="#ffbc3a">On Field 2</font>, we can either have a
+        <font color="#ffbc3a">Horizontal Vowel for the 1st variation</font> or a
+        <font color="#ffbc3a">Vertical Vowel for the 2nd variation</font>. These vowel types will be
+        explained in the next few lessons.
+
+        \n\n<font color="#ffbc3a">On field 3</font>, we can either have a
+        <font color="#ffbc3a">Vertical Vowel for the 1st variation</font> or a
+        <font color="#ffbc3a">2nd Consonant for the 2nd variation</font>.
+
+        \n\nAnd <font color="#ffbc3a">on the Field 4</font>, we have the
+        <font color="#ffbc3a">Ending Consonant</font> that marks the end of the syllable.
+
+        \n\n<font color="#ffbc3a">However, there is a special rule for the 1st variation</font>:
+        \nIt is possible to place 2 consonants on its 4th field as Batchim. This will be explained
+        later in the reading topic of the application.
+    </string>
+
+</resources>

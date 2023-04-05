@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reading_navigation"
+    app:startDestination="@id/frag_reading">
+
+    <fragment
+        android:id="@+id/frag_reading"
+        android:name="com.cakedev.hanbaeuda.frag_reading"
+        android:label="fragment_frag_reading"
+        tools:layout="@layout/fragment_reading" >
+        <action
+            android:id="@+id/action_frag_reading_to_reading_topic_reading_order"
+            app:destination="@id/reading_topic_reading_order" />
+        <action
+            android:id="@+id/action_frag_reading_to_reading_topic_batchim"
+            app:destination="@id/reading_topic_batchim" />
+        <action
+            android:id="@+id/action_frag_reading_to_reading_register_name"
+            app:destination="@id/reading_register_name" />
+        <action
+            android:id="@+id/action_frag_reading_to_reading_topic_reading_exercises"
+            app:destination="@id/reading_topic_reading_exercises" />
+    </fragment>
+    <fragment
+        android:id="@+id/reading_topic_reading_order"
+        android:name="com.cakedev.hanbaeuda.reading_topic_reading_order"
+        android:label="fragment_reading_topic_reading_order"
+        tools:layout="@layout/fragment_reading_topic_reading_order" />
+    <fragment
+        android:id="@+id/reading_topic_batchim"
+        android:name="com.cakedev.hanbaeuda.reading_topic_batchim"
+        android:label="fragment_reading_topic_batchim"
+        tools:layout="@layout/fragment_reading_topic_batchim" />
+    <fragment
+        android:id="@+id/reading_register_name"
+        android:name="com.cakedev.hanbaeuda.reading_register_name"
+        android:label="reading_register_name" />
+    <fragment
+        android:id="@+id/reading_topic_reading_exercises"
+        android:name="com.cakedev.hanbaeuda.reading_topic_reading_exercises"
+        android:label="fragment_reading_topic_reading_exercises"
+        tools:layout="@layout/fragment_reading_topic_reading_exercises" />
+</navigation>

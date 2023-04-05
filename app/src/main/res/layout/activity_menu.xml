@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:id="@+id/menu_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintVertical_bias="0.43"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/TopicBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/bm_yeonsung"
+            android:gravity="center|center_horizontal"
+            android:text="Select a topic!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textSize="48sp"/>
+
+        <Button
+            android:id="@+id/WritingButton"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:layout_marginBottom="10dp"
+            android:text="Writing (읽기)"
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/writingicon"
+            app:iconGravity="end"
+            app:iconPadding="10dp"
+            app:iconSize="80dp"
+            app:iconTint="@null"/>
+
+        <Button
+            android:id="@+id/ReadingButton"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:layout_marginBottom="10dp"
+            android:text="Reading (읽다)"
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/readingicon"
+            app:iconGravity="end"
+            app:iconPadding="10dp"
+            app:iconSize="80dp"
+            app:iconTint="@null"/>
+
+        <Button
+            android:id="@+id/RoHButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bm_yeonsung"
+            android:text="Rules of Hangul\n(Summary)"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            app:cornerRadius="5dp"
+            app:icon="@drawable/rohicon"
+            app:iconGravity="end"
+            app:iconPadding="10dp"
+            app:iconSize="80dp"
+            app:iconTint="@null"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/version_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@VersionName"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:fontFamily="@font/ibm_plex_sans_sb"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:alpha="0.5"/>
+
+    <Button
+        android:id="@+id/to_credits"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="\?"
+        android:fontFamily="@font/ibm_plex_sans_sb"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="15dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
